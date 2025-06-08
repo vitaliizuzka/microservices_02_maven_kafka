@@ -1,6 +1,7 @@
 package by.itclass.microservices_02_maven_kafka.config;
 
-import by.itclass.microservices_02_maven_kafka.sevice.event.ProductCreatedEvent;
+
+import by.itclass.core.ProductCreatedEvent;
 import org.apache.kafka.clients.admin.NewTopic;
 import org.apache.kafka.clients.producer.ProducerConfig;
 import org.springframework.beans.factory.annotation.Value;

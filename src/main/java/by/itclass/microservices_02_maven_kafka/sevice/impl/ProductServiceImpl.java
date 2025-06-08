@@ -1,8 +1,9 @@
 package by.itclass.microservices_02_maven_kafka.sevice.impl;
 
+import by.itclass.core.ProductCreatedEvent;
 import by.itclass.microservices_02_maven_kafka.sevice.ProductService;
 import by.itclass.microservices_02_maven_kafka.sevice.dto.CreateProductDto;
-import by.itclass.microservices_02_maven_kafka.sevice.event.ProductCreatedEvent;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.kafka.core.KafkaTemplate;
